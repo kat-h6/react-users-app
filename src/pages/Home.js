@@ -12,7 +12,10 @@ export default function Home() {
     
     return (
         <div>
-            <UserList users={users} />
+            <h1>Find your developer</h1>
+            <div className="container">
+                <UserList users={users} />
+            </div>
         </div>
     )
 }

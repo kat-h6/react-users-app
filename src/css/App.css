@@ -1,3 +1,13 @@
+@import "card.css";
+@import "fonts.css";
+@import "btn.css";
+/*
+*,
+*::before,
+*::after {
+  font-family: Droid-serif, serif;
+}
+*/
 #root {
   padding: 0;
   margin: 0;
@@ -13,19 +23,48 @@
 }
 
 body {
-  background-color: #e8f6ef;
+  background-color: #596860;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 
 .user-list {
-  padding-left: 10px;
-  width: 80%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 60px;
 }
 
-.card {
-  width: 30%;
-  margin-right: 10px;
-  margin-bottom: 10px;
+.black-container {
+  background-color: #141718;
+  height: 600px;
+  width: 600px;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center;
+  border-radius: 6px;
+  padding-top: 40px;
+  position: relative;
+}
+
+.details-container {
+  padding-top: 30px;
+  font-size: 16px;
+}
+
+.image-container {
+  height: 600px;
+  width: 50%;
+}
+
+img {
+  border-radius: 6px !important;
+}
+
+.my-container {
+  display: flex;
+  justify-content: space-evenly;
 }

@@ -1,0 +1,20 @@
+.grey-btn {
+  background-color: #363f46;
+  width: 185px;
+  color: white !important;
+  padding-top: 8px;
+  height: 42px;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 30px;
+}
+
+.grey-btn a {
+  color: white;
+}
+
+.grey-btn:hover {
+  background-color: #47545d;
+  color: white;
+  cursor: pointer;
+}

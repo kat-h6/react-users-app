@@ -15,8 +15,9 @@ export default function About() {
   }, [id]);
 
   return (
-    <div className="container">
-      <div className="square-img">
+    <div className="my-container">
+      <div className="img-container">
+        <img src="https://source.unsplash.com/collection/8818534/500x600" alt="developer headshot" />
       </div>
       {user && <div>
         <UserDetails {...user} />
