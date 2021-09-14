@@ -14,7 +14,7 @@
 
 .card h5 {
   font-family: "Roboto-Light", sans-serif;
-  font-size: 30px;
+  font-size: 26px;
 }
 
 .card p {
@@ -24,7 +24,8 @@
   margin-bottom: 0;
 }
 
-a {
+.card a {
+  font-family: "Droid Serif", serif;
   color: #aeaeae;
   text-decoration: none;
 }

@@ -1,4 +1,5 @@
 .grey-btn {
+  font-family: "Roboto-Light", sans-serif;
   background-color: #363f46;
   width: 185px;
   color: white !important;
@@ -10,7 +11,9 @@
 }
 
 .grey-btn a {
+  font-family: "Roboto-Light", sans-serif;
   color: white;
+  text-decoration: none;
 }
 
 .grey-btn:hover {

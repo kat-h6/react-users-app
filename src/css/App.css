@@ -53,6 +53,7 @@ body {
 .details-container {
   padding-top: 30px;
   font-size: 16px;
+  font-family: "Droid Serif", serif;
 }
 
 .image-container {
@@ -67,4 +68,11 @@ img {
 .my-container {
   display: flex;
   justify-content: space-evenly;
+}
+
+.large-avatar {
+  width: 80px !important;
+  height: 80px !important;
+  font-size: 30px !important;
+  margin: 20px !important;
 }
