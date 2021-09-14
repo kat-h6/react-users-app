@@ -6,7 +6,10 @@
 
 #root > div {
   margin-top: 20px;
-  display: flex;
+}
+
+.App {
+  text-align: center;
 }
 
 .user-list {

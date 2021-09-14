@@ -7,7 +7,7 @@ export default function Home() {
           .then(response => response.json())
           .then(json => setUsers(json))
     }, []);
-    
+
     const [users, setUsers] = useState([]);
     
     return (
