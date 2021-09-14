@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from "react-router-dom"
 
+import UserDetails from '../components/UserDetails'
+
 export default function About() {
   const { id } = useParams()
   const [user, setUser] = useState(null);
@@ -13,9 +15,11 @@ export default function About() {
   }, [id]);
 
   return (
-    <div>
+    <div className="container">
+      <div className="square-img">
+      </div>
       {user && <div>
-      <h2>{user.username}</h2>
+        <UserDetails {...user} />
       </div>}
     </div>
   )

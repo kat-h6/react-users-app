@@ -12,6 +12,10 @@
   text-align: center;
 }
 
+body {
+  background-color: #e8f6ef;
+}
+
 .user-list {
   padding-left: 10px;
   width: 80%;
