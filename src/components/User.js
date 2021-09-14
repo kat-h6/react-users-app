@@ -1,6 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
-export default function User({ name, username, email }) {
+export default function User({ id, name, username, email }) {
     return (
         <div className="card">
             <h5>{name}</h5>
@@ -8,7 +9,9 @@ export default function User({ name, username, email }) {
                 <p>{username}</p>
                 <a href="link" >{email}</a>
             </div>
-            <button>More details</button>
+            <Link to={`/user/${id}`}>
+                Find out more!
+            </Link>
         </div>
     )
 }

@@ -6,10 +6,12 @@ export default function UserList({ users }) {
         <div className="user-list">
             {users.map(user => {
                 return (
-                    <User
-                        key={user.id}
-                        {...user}
-                    />
+                    <div className="container">
+                        <User
+                            key={user.id}
+                            {...user}
+                        />
+                    </div>
                 )
             })}
         </div>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import UserList from './UserList'
+import UserList from '../components/UserList'
 
 export default function Home() {
     useEffect(() => {
